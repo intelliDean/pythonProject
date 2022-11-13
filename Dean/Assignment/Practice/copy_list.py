@@ -1,6 +1,6 @@
 animals = ["Lion", "Tiger", "Bandersnatch"]  # slicing method
-large_cats = animals[
-             :]  # with the square bracket and colon, both variables won't be point at the dame object in memory, instead, animals will copy into large_cats from begining to the end
+large_cats = animals[:]  # with the square bracket and colon, both variables won't be pointing at the s object in
+# memory, instead, animals will copy into large_cats from beginning to the end
 large_cats.append("Leopard")
 
 number1 = 1, 2, 3, 4, 5, 6
