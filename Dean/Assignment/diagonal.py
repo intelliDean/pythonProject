@@ -1,4 +1,4 @@
-def diagonal(lst):
+def diagonal(lst: list) -> int:
     total = 0
     for i in range(len(lst)):
         total += lst[i][i]
